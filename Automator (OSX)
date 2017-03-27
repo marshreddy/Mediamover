@@ -1,0 +1,6 @@
+on run {input, parameters}
+	
+	do shell script "python mover.py" password "" with administrator privileges
+	
+	return input
+end run
